@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://zztmm.c456ku87f90u.ap-northeast-2.rds.amazonaws.com:5432/zztmm?autoReconnect=true&useSSL=false
+    username: zztmm
+    password: zztmm000
+    driverClassName: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    generate-ddl: false
+    show-sql: true
+  thymeleaf:
+    check-template: false
