@@ -4,15 +4,17 @@
 <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 <title>FMSD</title>
 <link type="text/css" rel="stylesheet" href="./plugins/semantic-ui/semantic.css" th:href="@{/plugins/semantic-ui/semantic.min.css}" />
+<link type="text/css" rel="stylesheet" href="./css/common.css" th:href="@{/css/common.css}"/>
 </head>
 <body>
 	<div class="ui main text container">
-		<h1 class="ui header">ddd</h1>
+		<h1 class="ui header">Form Management System for D</h1>
 	</div>
 	<header th:replace="fragment/header :: header"></header>
 	<section id="content" layout:fragment="content"></section>
 	<footer th:replace="fragment/footer :: footer"></footer>
 <script src="./plugins/jquery-3.1.1.js" th:src="@{/plugins/jquery-3.1.1.min.js}"></script>
 <script src="./plugins/semantic-ui/semantic.js" th:src="@{/plugins/semantic-ui/semantic.min.js}"></script>
+<script src="./js/common.js" th:src="@{/js/common.js}"></script>
 </body>
 </html>
