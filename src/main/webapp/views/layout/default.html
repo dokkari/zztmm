@@ -2,19 +2,31 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no" />
 <title>FMSD</title>
 <link type="text/css" rel="stylesheet" href="./plugins/semantic-ui/semantic.css" th:href="@{/plugins/semantic-ui/semantic.min.css}" />
 <link type="text/css" rel="stylesheet" href="./css/common.css" th:href="@{/css/common.css}"/>
 </head>
 <body>
-	<div class="ui main text container">
-		<h1 class="ui header">Form Management System for D</h1>
+	<div class="ui main text">
+		<div style="position:relative;height:700px; background-color:#797979;">
+			<h1 class="ui header" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff;font-family:'나눔명조'">
+				여기다가 배경으로<br/>
+				뭔가 사진 인스타/텀블러감성으로 크게 넣고<br/>
+				중앙에 사이트명
+				<br />
+				<br />
+				<br />
+				↓모바일상태일때메뉴아이콘화
+			</h1>
+		</div>
 	</div>
 	<header th:replace="fragment/header :: header"></header>
 	<section id="content" layout:fragment="content"></section>
 	<footer th:replace="fragment/footer :: footer"></footer>
 <script src="./plugins/jquery-3.1.1.js" th:src="@{/plugins/jquery-3.1.1.min.js}"></script>
 <script src="./plugins/semantic-ui/semantic.js" th:src="@{/plugins/semantic-ui/semantic.min.js}"></script>
+<script src="./plugins/pace.min.js" th:src="@{/plugins/pace.min.js}"></script>
 <script src="./js/common.js" th:src="@{/js/common.js}"></script>
 </body>
 </html>
