@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" layout:decorator="layout/error">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+</head>
+<body>
+	<section layout:fragment="content">
+		<div class="container error-404" style="min-height:900px; background:#333; color:#efefef; padding:3em;">
+			<h1 style="font-size:8em; font-family:'Amatic SC', cursive">Error<span th:text="${status}" style="font-size:4rem;">Status</span></h1>
+			<p style="margin-top:-30px; margin-bottom:100px;">
+				<a href="index.html" th:href="@{/}" class="ui blue inverted button"> HOME </a>
+				<br/>
+			</p>
+			<p th:text="${message}">Error Message</p>
+			<div>
+				<h3>Time Stamp</h3>
+				<div th:text="${timestamp}"></div>
+			</div>
+			<div>
+				<h3>Exception name</h3>
+				<div th:text="${exception}"></div>
+			</div>
+			<div>
+				<h3>Trace</h3>
+				<div th:utext="${trace}"></div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
