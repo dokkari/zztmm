@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+.mainContent {
+	/* min-height: 1200px; */
+	/* text-align: center; */
+	background-color: #333;
+	color: #eee
+}
+
+.mainStuff {
+	width: 100%;
+	padding-top:3em;
+}
+.title {
+	display:block;
+}
+.mainStuff li {
+	min-height:100px;
+	background:#764521;
+	top:2em;
+}
