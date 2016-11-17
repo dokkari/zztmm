@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" layout:decorator="layout/default">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+</head>
+<body>
+	<section layout:fragment="content">
+		<div style="height:95%;">
+			<h1>폼만드미</h1>
+				<div id="step1">
+					<h2>만드실 폼의 종류를 선택하세요.</h2>
+					<button class="ui yellow huge button chooseType" data-form-type="reservation">예약폼</button>
+					<button class="ui yellow huge button chooseType" data-form-type="commercial">통신판매폼</button>
+					<button class="ui yellow huge button chooseType" data-form-type="basic">기본폼</button>
+				</div>
+			<form class="ui form">
+				<div id="step2" class="ui fluid action input" style="display:none;">
+					<div class="field">
+						<label for="title">만드실 폼의 <big>이름</big>을 적어주세요</label>
+						<input type="text" id="title" placeholder="제목 입력"/>
+						<button class="ui yellow button next">다음</button>
+					</div>
+				</div>
+				<div id="step3" class="ui fluid action input" style="display:none;">
+					<div class="field">
+						<label for="temp1">단계3</label>
+					</div>
+				</div>
+			</form>
+		</div>
+		
+		<script src="./js/makeForm.js" th:src="@{/js/makeForm.js}"></script>
+	</section>
+</body>
+</html>

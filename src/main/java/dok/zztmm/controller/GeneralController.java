@@ -14,4 +14,9 @@ public class GeneralController {
 	public String goIndex() {
 		return "index";
 	}
+	
+	@RequestMapping("/makeForm")
+	public String goMakeForm() {
+		return "form/makeForm";
+	}
 }
