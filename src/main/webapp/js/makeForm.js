@@ -11,7 +11,6 @@ $(document).ready(function() {
 	});
 	$(".next").click(function() {
 		var step = $(this).parent().parent().hide().attr("id").slice(-1);
-		alert(++step);
 		$("#step" + ++step).show();
 	})
 });
