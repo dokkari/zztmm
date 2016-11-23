@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="1161" height="825" text="Browser&#xA;http://..." measuredWidth="1161" measuredHeight="825">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="2" y="52" measuredWidth="1161" measuredHeight="65">
+    <widgets xsi:type="model:WidgetGroup" id="3" measuredWidth="1161" measuredHeight="65">
+      <widgets xsi:type="model:Panel" id="4" width="1161" height="65" measuredWidth="1161" measuredHeight="65"/>
+      <widgets xsi:type="model:Label" id="5" x="263" y="21" text="Formaker" measuredWidth="56" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:LinkBar" id="6" x="503" y="21" text="폼만드미, 폼보미, 문의하기" measuredWidth="178" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="51" height="23" text="폼만드미"/>
+        <items x="69" y="0" width="39" height="23" text="폼보미"/>
+        <items x="126" y="0" width="51" height="23" text="문의하기"/>
+      </widgets>
+      <widgets xsi:type="model:Link" id="7" x="904" y="21" text="로그인" measuredWidth="39" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="8" x="228" y="17" measuredWidth="32" measuredHeight="32" icon="cloud (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="1116" y="168" measuredWidth="45" measuredHeight="49">
+    <widgets xsi:type="model:Shape" id="10" width="45" height="49" measuredWidth="45" measuredHeight="49">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" x="7" y="9" measuredWidth="32" measuredHeight="32" icon="hash (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="42" y="824" measuredWidth="1161" measuredHeight="137">
+    <widgets xsi:type="model:Panel" id="43" width="1161" height="137" measuredWidth="1161" measuredHeight="137"/>
+    <widgets xsi:type="model:Link" id="44" x="512" y="24" text="개인정보보호방침" measuredWidth="99" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="45" x="508" y="57" text="powerd by Dokkari" measuredWidth="108" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="46" x="516" y="92" measuredWidth="32" measuredHeight="32" icon="twitter (large)"/>
+    <widgets xsi:type="model:Icon" id="47" x="565" y="95" measuredWidth="32" measuredHeight="32" icon="attachment (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="264" y="208" text="Step 7" measuredWidth="132" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="316" y="286" text="읽어주세요" measuredWidth="221" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="63" x="484" y="543" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="64" x="836" y="649" width="97" height="94" measuredWidth="97" measuredHeight="94" icon="arrow-down (large)"/>
+  <widgets xsi:type="model:Icon" id="81" x="280" y="128" width="72" height="69" measuredWidth="72" measuredHeight="69" icon="arrow-up (large)"/>
+  <widgets xsi:type="model:Text" id="92" x="280" y="408" text="* 관리자는 모든 폼을 열람할 수 있으며, 논란이 발생할 가능성이 있는 폼에 대해서는 통보하지 않고 수정/삭제할 수 있습니다.&#xD;&#xA;* 이용자에 의한 법적 문제가 발생하는 경우 당 사이트에서는 책임지지 않습니다.&#xD;&#xA;* 관리자의 과실로 인하여 개인정보유출 등의 보안 문제가 생기는 경우 이는 관리자가 책임지고 보호합니다.&#xD;&#xA;등등" measuredWidth="688" measuredHeight="60">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="93" x="448" y="536" text="동의 안함" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="94" x="608" y="535" text="동의하고 등록함" measuredWidth="108" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="95" x="274" y="388" width="711" height="109" measuredWidth="711" measuredHeight="109"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

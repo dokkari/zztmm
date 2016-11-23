@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="1161" height="825" text="Browser&#xA;http://..." measuredWidth="1161" measuredHeight="825">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="2" y="52" measuredWidth="1161" measuredHeight="65">
+    <widgets xsi:type="model:WidgetGroup" id="3" measuredWidth="1161" measuredHeight="65">
+      <widgets xsi:type="model:Panel" id="4" width="1161" height="65" measuredWidth="1161" measuredHeight="65"/>
+      <widgets xsi:type="model:Label" id="5" x="263" y="21" text="Formaker" measuredWidth="56" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:LinkBar" id="6" x="503" y="21" text="폼만드미, 폼보미, 문의하기" measuredWidth="178" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="51" height="23" text="폼만드미"/>
+        <items x="69" y="0" width="39" height="23" text="폼보미"/>
+        <items x="126" y="0" width="51" height="23" text="문의하기"/>
+      </widgets>
+      <widgets xsi:type="model:Link" id="7" x="904" y="21" text="로그인" measuredWidth="39" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="8" x="228" y="17" measuredWidth="32" measuredHeight="32" icon="cloud (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="1116" y="168" measuredWidth="45" measuredHeight="49">
+    <widgets xsi:type="model:Shape" id="10" width="45" height="49" measuredWidth="45" measuredHeight="49">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" x="7" y="9" measuredWidth="32" measuredHeight="32" icon="hash (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="42" y="824" measuredWidth="1161" measuredHeight="137">
+    <widgets xsi:type="model:Panel" id="43" width="1161" height="137" measuredWidth="1161" measuredHeight="137"/>
+    <widgets xsi:type="model:Link" id="44" x="512" y="24" text="개인정보보호방침" measuredWidth="99" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="45" x="508" y="57" text="powerd by Dokkari" measuredWidth="108" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="46" x="516" y="92" measuredWidth="32" measuredHeight="32" icon="twitter (large)"/>
+    <widgets xsi:type="model:Icon" id="47" x="565" y="95" measuredWidth="32" measuredHeight="32" icon="attachment (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="264" y="208" text="Step 3" measuredWidth="132" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="320" y="280" text="폼의 기간을 설정해주세요" measuredWidth="509" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="63" x="484" y="543" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="64" x="836" y="649" width="97" height="94" measuredWidth="97" measuredHeight="94" icon="arrow-down (large)"/>
+  <widgets xsi:type="model:Checkbox" id="69" x="448" y="368" text="설정하지 않습니다\n(등록 즉시 열람 및 신청이 가능해집니다.)" measuredWidth="244" measuredHeight="38">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="70" x="719" y="376" width="274" height="9" text="클릭 시 하단 데이트피커 비활성화" measuredWidth="274" measuredHeight="9"/>
+  <widgets xsi:type="model:WidgetGroup" id="74" x="395" y="464" measuredWidth="64" measuredHeight="45">
+    <widgets xsi:type="model:DateField" id="71" y="22" text="  /  /  " measuredWidth="64" measuredHeight="23"/>
+    <widgets xsi:type="model:Label" id="73" text="시작일" measuredWidth="42" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="76" x="664" y="464" measuredWidth="64" measuredHeight="45">
+    <widgets xsi:type="model:DateField" id="72" y="22" text="  /  /  " measuredWidth="64" measuredHeight="23"/>
+    <widgets xsi:type="model:Label" id="75" text="종료일" measuredWidth="42" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="77" x="448" y="401" text="열람 가능 기간과 신청 가능 기간을 다르게 하고 싶습니다." measuredWidth="332" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="78" x="784" y="415" width="305" height="9" text="클릭 시 하단 데이트피커 열람/신청 두종류로" measuredWidth="305" measuredHeight="9"/>
+  <widgets xsi:type="model:Label" id="79" x="547" y="493" text="~" measuredWidth="14" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="81" x="280" y="128" width="72" height="69" measuredWidth="72" measuredHeight="69" icon="arrow-up (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

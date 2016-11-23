@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="1161" height="825" text="Browser&#xA;http://..." measuredWidth="1161" measuredHeight="825">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="2" y="52" measuredWidth="1161" measuredHeight="65">
+    <widgets xsi:type="model:WidgetGroup" id="3" measuredWidth="1161" measuredHeight="65">
+      <widgets xsi:type="model:Panel" id="4" width="1161" height="65" measuredWidth="1161" measuredHeight="65"/>
+      <widgets xsi:type="model:Label" id="5" x="263" y="21" text="Formaker" measuredWidth="56" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:LinkBar" id="6" x="503" y="21" text="폼만드미, 폼보미, 문의하기" measuredWidth="178" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="51" height="23" text="폼만드미"/>
+        <items x="69" y="0" width="39" height="23" text="폼보미"/>
+        <items x="126" y="0" width="51" height="23" text="문의하기"/>
+      </widgets>
+      <widgets xsi:type="model:Link" id="7" x="904" y="21" text="로그인" measuredWidth="39" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="8" x="228" y="17" measuredWidth="32" measuredHeight="32" icon="cloud (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="1112" y="60" measuredWidth="45" measuredHeight="49">
+    <widgets xsi:type="model:Shape" id="10" width="45" height="49" measuredWidth="45" measuredHeight="49">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" x="7" y="9" measuredWidth="32" measuredHeight="32" icon="hash (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="42" y="824" measuredWidth="1161" measuredHeight="137">
+    <widgets xsi:type="model:Panel" id="43" width="1161" height="137" measuredWidth="1161" measuredHeight="137"/>
+    <widgets xsi:type="model:Link" id="44" x="512" y="24" text="개인정보보호방침" measuredWidth="99" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="45" x="508" y="57" text="powerd by Dokkari" measuredWidth="108" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="46" x="516" y="92" measuredWidth="32" measuredHeight="32" icon="twitter (large)"/>
+    <widgets xsi:type="model:Icon" id="47" x="565" y="95" measuredWidth="32" measuredHeight="32" icon="attachment (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="16" y="116" text="Step 5" measuredWidth="132" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="63" x="484" y="543" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="81" x="944" y="116" width="217" height="709" text="팔레트" measuredWidth="217" measuredHeight="709">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="64" x="1082" y="750" width="65" height="65" measuredWidth="65" measuredHeight="65" icon="arrow-down (large)"/>
+  <widgets xsi:type="model:Label" id="79" x="547" y="493" text="~" measuredWidth="14" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="82" x="168" y="123" text="항목 추가" measuredWidth="193" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="83" x="1113" y="123" text="fixed&#xD;&#xA;" measuredWidth="43" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="84" x="977" y="182" width="137" text="단답형" measuredWidth="137" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="85" x="980" y="256" width="137" height="65" text="서술형" measuredWidth="137" measuredHeight="65">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="86" x="983" y="368" width="132" text="셀렉트박스" measuredWidth="132" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="87" x="986" y="432" text="(o) 단일선택 (selected)&#xA;( ) 단일선택" measuredWidth="134" measuredHeight="48" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="134" height="22" text="(o) 단일선택 (selected)"/>
+    <items x="0" y="24" width="134" height="22" text="( ) 단일선택"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="88" x="983" y="515" text="[x] 다중선택&#xA;[x] 다중선택&#xA;[ ] 다중선택" measuredWidth="79" measuredHeight="70" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="79" height="22" text="[x] 다중선택"/>
+    <items x="0" y="24" width="79" height="22" text="[x] 다중선택"/>
+    <items x="0" y="46" width="79" height="22" text="[ ] 다중선택"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="89" x="973" y="224" width="164" measuredWidth="164" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="90" x="973" y="336" width="164" measuredWidth="164" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="91" x="973" y="410" width="164" measuredWidth="164" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="92" x="971" y="493" width="164" measuredWidth="164" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="93" x="971" y="600" width="164" measuredWidth="164" measuredHeight="6"/>
+  <widgets xsi:type="model:Text" id="94" x="996" y="624" width="105" height="52" text="단순 텍스트 입력" measuredWidth="105" measuredHeight="52">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="95" x="971" y="664" width="164" measuredWidth="164" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="96" x="982" y="688" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Label" id="97" x="1031" y="692" text="이미지 추가" measuredWidth="70" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="98" x="962" y="784" text="드래그하여 항목 추가" measuredWidth="122" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="99" x="344" y="201" width="619" height="71" text="드래그" measuredWidth="619" measuredHeight="71" direction="bottom"/>
+  <widgets xsi:type="model:TextField" id="100" x="64" y="288" width="385" measuredWidth="385" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="101" x="64" y="256" text="● 질문을 입력해주세요" measuredWidth="134" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="102" x="680" y="768" text="여기는 좀 심혈을 기울여서 만들어야겠다...&#xD;&#xA;" measuredWidth="246" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="103" x="96" y="190" text="예약폼, 통판폼을 선택했을 경우&#xD;&#xA;일정한 항목이 미리 추가된다&#xD;&#xA;" measuredWidth="188" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="104" x="880" y="142" text="테마기능 적용할지.." measuredWidth="123" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="105" x="368" y="122" width="72" height="69" measuredWidth="72" measuredHeight="69" icon="arrow-up (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

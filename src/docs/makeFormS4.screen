@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="1161" height="825" text="Browser&#xA;http://..." measuredWidth="1161" measuredHeight="825">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="2" y="52" measuredWidth="1161" measuredHeight="65">
+    <widgets xsi:type="model:WidgetGroup" id="3" measuredWidth="1161" measuredHeight="65">
+      <widgets xsi:type="model:Panel" id="4" width="1161" height="65" measuredWidth="1161" measuredHeight="65"/>
+      <widgets xsi:type="model:Label" id="5" x="263" y="21" text="Formaker" measuredWidth="56" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:LinkBar" id="6" x="503" y="21" text="폼만드미, 폼보미, 문의하기" measuredWidth="178" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="51" height="23" text="폼만드미"/>
+        <items x="69" y="0" width="39" height="23" text="폼보미"/>
+        <items x="126" y="0" width="51" height="23" text="문의하기"/>
+      </widgets>
+      <widgets xsi:type="model:Link" id="7" x="904" y="21" text="로그인" measuredWidth="39" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="8" x="228" y="17" measuredWidth="32" measuredHeight="32" icon="cloud (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="1116" y="168" measuredWidth="45" measuredHeight="49">
+    <widgets xsi:type="model:Shape" id="10" width="45" height="49" measuredWidth="45" measuredHeight="49">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" x="7" y="9" measuredWidth="32" measuredHeight="32" icon="hash (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="42" y="824" measuredWidth="1161" measuredHeight="137">
+    <widgets xsi:type="model:Panel" id="43" width="1161" height="137" measuredWidth="1161" measuredHeight="137"/>
+    <widgets xsi:type="model:Link" id="44" x="512" y="24" text="개인정보보호방침" measuredWidth="99" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="45" x="508" y="57" text="powerd by Dokkari" measuredWidth="108" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="46" x="516" y="92" measuredWidth="32" measuredHeight="32" icon="twitter (large)"/>
+    <widgets xsi:type="model:Icon" id="47" x="565" y="95" measuredWidth="32" measuredHeight="32" icon="attachment (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="197" y="150" text="Step 4" measuredWidth="132" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="384" y="216" text="어떤 폼인지 알려주세요" measuredWidth="466" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="63" x="484" y="543" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="64" x="836" y="649" width="97" height="94" measuredWidth="97" measuredHeight="94" icon="arrow-down (large)"/>
+  <widgets xsi:type="model:TextArea" id="80" x="520" y="360" width="470" height="147" text="예시&#xD;&#xA;&#xD;&#xA;내 장르를 테마로 한 뭔가의 굿즈 수량조사 폼&#xD;&#xA;&#xD;&#xA;or&#xD;&#xA;&#xD;&#xA;어떤 행사에 나올 뭔가의 신간 회지 수량 조사" measuredWidth="470" measuredHeight="147">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Placeholder" id="83" x="272" y="343" width="170" height="181" text="섬네일 등록" measuredWidth="170" measuredHeight="181"/>
+  <widgets xsi:type="model:Label" id="84" x="536" y="523" text="태그" measuredWidth="30" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="85" x="576" y="523" width="414" text="쉼표로 구분 (예: 내장르, 어떤행사, 수량조사, 구두예약)" measuredWidth="414" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="86" x="565" y="592" text="폼 설명에 이미지 첨부를 해야하는지...으음...으으음;;;" measuredWidth="300" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="87" x="96" y="128" width="72" height="69" measuredWidth="72" measuredHeight="69" icon="arrow-up (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

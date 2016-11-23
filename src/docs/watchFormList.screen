@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="1161" height="825" text="Browser&#xA;http://..." measuredWidth="1161" measuredHeight="825">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="2" y="52" measuredWidth="1161" measuredHeight="65">
+    <widgets xsi:type="model:WidgetGroup" id="3" measuredWidth="1161" measuredHeight="65">
+      <widgets xsi:type="model:Panel" id="4" width="1161" height="65" measuredWidth="1161" measuredHeight="65"/>
+      <widgets xsi:type="model:Label" id="5" x="263" y="21" text="Formaker" measuredWidth="56" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:LinkBar" id="6" x="503" y="21" text="폼만드미, 폼보미, 문의하기" measuredWidth="178" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="51" height="23" text="폼만드미"/>
+        <items x="69" y="0" width="39" height="23" text="폼보미"/>
+        <items x="126" y="0" width="51" height="23" text="문의하기"/>
+      </widgets>
+      <widgets xsi:type="model:Link" id="7" x="904" y="21" text="로그인" measuredWidth="39" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="8" x="228" y="17" measuredWidth="32" measuredHeight="32" icon="cloud (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="1116" y="168" measuredWidth="45" measuredHeight="49">
+    <widgets xsi:type="model:Shape" id="10" width="45" height="49" measuredWidth="45" measuredHeight="49">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" x="7" y="9" measuredWidth="32" measuredHeight="32" icon="hash (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="45" x="79" y="768" measuredWidth="994" measuredHeight="177">
+    <widgets xsi:type="model:Panel" id="46" width="994" height="177" measuredWidth="994" measuredHeight="177"/>
+    <widgets xsi:type="model:Placeholder" id="47" x="41" y="27" width="113" height="123" text="썸네일" measuredWidth="113" measuredHeight="123"/>
+    <widgets xsi:type="model:Text" id="48" x="177" y="56" width="753" height="65" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="753" measuredHeight="65">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="49" x="181" y="17" width="39" text="폼 제목" measuredWidth="39" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:LinkBar" id="50" x="177" y="126" text="태그,태그,태그,태그" measuredWidth="163" measuredHeight="23">
+      <font/>
+      <items x="0" y="0" width="27" height="23" text="태그"/>
+      <items x="45" y="0" width="27" height="23" text="태그"/>
+      <items x="90" y="0" width="27" height="23" text="태그"/>
+      <items x="135" y="0" width="27" height="23" text="태그"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="51" x="177" y="39" text="2016/11/23 ~ 2016/12/23" measuredWidth="154" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" y="824" measuredWidth="1161" measuredHeight="137">
+    <widgets xsi:type="model:Panel" id="13" width="1161" height="137" measuredWidth="1161" measuredHeight="137"/>
+    <widgets xsi:type="model:Link" id="14" x="512" y="24" text="개인정보보호방침" measuredWidth="99" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="15" x="508" y="57" text="powerd by Dokkari" measuredWidth="108" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="16" x="516" y="92" measuredWidth="32" measuredHeight="32" icon="twitter (large)"/>
+    <widgets xsi:type="model:Icon" id="17" x="565" y="95" measuredWidth="32" measuredHeight="32" icon="attachment (large)"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="18" x="860" y="145" width="190" text="Search" measuredWidth="190" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="19" x="80" y="145" text="최신순,인기순" measuredWidth="97" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="39" height="23" text="최신순"/>
+    <items x="57" y="0" width="39" height="23" text="인기순"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="30" x="79" y="240" measuredWidth="994" measuredHeight="177">
+    <widgets xsi:type="model:Panel" id="20" width="994" height="177" measuredWidth="994" measuredHeight="177"/>
+    <widgets xsi:type="model:Placeholder" id="21" x="41" y="27" width="113" height="123" text="썸네일" measuredWidth="113" measuredHeight="123"/>
+    <widgets xsi:type="model:Text" id="22" x="177" y="56" width="753" height="65" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="753" measuredHeight="65">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="23" x="181" y="17" width="39" text="폼 제목" measuredWidth="39" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:LinkBar" id="24" x="177" y="126" text="태그,태그,태그,태그" measuredWidth="163" measuredHeight="23">
+      <font/>
+      <items x="0" y="0" width="27" height="23" text="태그"/>
+      <items x="45" y="0" width="27" height="23" text="태그"/>
+      <items x="90" y="0" width="27" height="23" text="태그"/>
+      <items x="135" y="0" width="27" height="23" text="태그"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="25" x="177" y="39" text="2016/11/23 ~ 2016/12/23" measuredWidth="154" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="26" x="1031" y="253" measuredWidth="32" measuredHeight="32" icon="heart (large)"/>
+  <widgets xsi:type="model:Icon" id="27" x="988" y="250" measuredWidth="32" measuredHeight="32" icon="check (large)"/>
+  <widgets xsi:type="model:Note" id="28" x="1062" y="267" text="관심있는 폼" measuredWidth="81" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="29" x="878" y="251" text="이미 제출한 폼" measuredWidth="97" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="31" x="79" y="416" measuredWidth="994" measuredHeight="177">
+    <widgets xsi:type="model:Panel" id="32" width="994" height="177" measuredWidth="994" measuredHeight="177"/>
+    <widgets xsi:type="model:Placeholder" id="33" x="41" y="27" width="113" height="123" text="썸네일" measuredWidth="113" measuredHeight="123"/>
+    <widgets xsi:type="model:Text" id="34" x="177" y="56" width="753" height="65" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="753" measuredHeight="65">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="35" x="181" y="17" width="39" text="폼 제목" measuredWidth="39" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:LinkBar" id="36" x="177" y="126" text="태그,태그,태그,태그" measuredWidth="163" measuredHeight="23">
+      <font/>
+      <items x="0" y="0" width="27" height="23" text="태그"/>
+      <items x="45" y="0" width="27" height="23" text="태그"/>
+      <items x="90" y="0" width="27" height="23" text="태그"/>
+      <items x="135" y="0" width="27" height="23" text="태그"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="37" x="177" y="39" text="2016/11/23 ~ 2016/12/23" measuredWidth="154" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="38" x="79" y="592" measuredWidth="994" measuredHeight="177">
+    <widgets xsi:type="model:Panel" id="39" width="994" height="177" measuredWidth="994" measuredHeight="177"/>
+    <widgets xsi:type="model:Placeholder" id="40" x="41" y="27" width="113" height="123" text="썸네일" measuredWidth="113" measuredHeight="123"/>
+    <widgets xsi:type="model:Text" id="41" x="177" y="56" width="753" height="65" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="753" measuredHeight="65">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="42" x="181" y="17" width="39" text="폼 제목" measuredWidth="39" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:LinkBar" id="43" x="177" y="126" text="태그,태그,태그,태그" measuredWidth="163" measuredHeight="23">
+      <font/>
+      <items x="0" y="0" width="27" height="23" text="태그"/>
+      <items x="45" y="0" width="27" height="23" text="태그"/>
+      <items x="90" y="0" width="27" height="23" text="태그"/>
+      <items x="135" y="0" width="27" height="23" text="태그"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="44" x="177" y="39" text="2016/11/23 ~ 2016/12/23" measuredWidth="154" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Note" id="52" x="400" y="145" text="페이지네이션은 어떻게 할지..&#xD;&#xA;스크롤형식 ajax? 아니면 그냥 페이지네이션?" measuredWidth="258" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="53" x="1031" y="608" measuredWidth="32" measuredHeight="32" icon="heart (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
