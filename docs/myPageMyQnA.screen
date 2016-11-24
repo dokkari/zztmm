@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="1161" height="825" text="Browser&#xA;http://..." measuredWidth="1161" measuredHeight="825">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="2" y="52" measuredWidth="1161" measuredHeight="65">
+    <widgets xsi:type="model:WidgetGroup" id="3" measuredWidth="1161" measuredHeight="65">
+      <widgets xsi:type="model:Panel" id="4" width="1161" height="65" measuredWidth="1161" measuredHeight="65"/>
+      <widgets xsi:type="model:Label" id="5" x="263" y="21" text="Formaker" measuredWidth="56" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:LinkBar" id="6" x="503" y="21" text="폼만드미, 폼보미, 문의하기" measuredWidth="178" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="51" height="23" text="폼만드미"/>
+        <items x="69" y="0" width="39" height="23" text="폼보미"/>
+        <items x="126" y="0" width="51" height="23" text="문의하기"/>
+      </widgets>
+      <widgets xsi:type="model:Link" id="7" x="904" y="21" text="로그인" measuredWidth="39" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="8" x="228" y="17" measuredWidth="32" measuredHeight="32" icon="cloud (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="1116" y="168" measuredWidth="45" measuredHeight="49">
+    <widgets xsi:type="model:Shape" id="10" width="45" height="49" measuredWidth="45" measuredHeight="49">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" x="7" y="9" measuredWidth="32" measuredHeight="32" icon="hash (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" y="824" measuredWidth="1161" measuredHeight="137">
+    <widgets xsi:type="model:Panel" id="13" width="1161" height="137" measuredWidth="1161" measuredHeight="137"/>
+    <widgets xsi:type="model:Link" id="14" x="512" y="24" text="개인정보보호방침" measuredWidth="99" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="15" x="508" y="57" text="powerd by Dokkari" measuredWidth="108" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="16" x="516" y="92" measuredWidth="32" measuredHeight="32" icon="twitter (large)"/>
+    <widgets xsi:type="model:Icon" id="17" x="565" y="95" measuredWidth="32" measuredHeight="32" icon="attachment (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="75" x="364" y="184" text="문의확인" measuredWidth="178" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="77" x="288" y="162" height="605" measuredWidth="6" measuredHeight="605"/>
+  <widgets xsi:type="model:WidgetGroup" id="87" x="72" y="264" measuredWidth="161" measuredHeight="161">
+    <widgets xsi:type="model:Group" id="79" width="161" height="161" text="Form" measuredWidth="161" measuredHeight="161">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="80" x="34" y="40" text="만든 폼" measuredWidth="46" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="81" x="34" y="72" text="신청한 폼" measuredWidth="58" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="82" x="34" y="104" text="맘에 든 폼" measuredWidth="62" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="88" x="72" y="464" measuredWidth="161" measuredHeight="145">
+    <widgets xsi:type="model:Group" id="83" width="161" height="145" text="내 정보" measuredWidth="161" measuredHeight="145">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="84" x="34" y="40" text="내 정보 수정" measuredWidth="74" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="85" x="34" y="90" text="문의 확인" measuredWidth="58" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="91" x="34" y="64" text="탈퇴" measuredWidth="30" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="89" x="72" y="176" text="MY PAGE" measuredWidth="189" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="93" x="376" y="287" width="689" height="458" measuredWidth="689" measuredHeight="458"/>
+  <widgets xsi:type="model:Label" id="94" x="396" y="352" text="1" measuredWidth="13" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="95" x="448" y="352" text="문의합니다" measuredWidth="66" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="96" x="820" y="352" text="2016/11/24" measuredWidth="72" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="98" x="394" y="305" text="#" measuredWidth="13" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="99" x="566" y="305" text="제목" measuredWidth="30" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="100" x="836" y="305" text="날짜" measuredWidth="30" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="101" x="976" y="305" text="답변여부" measuredWidth="54" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="102" x="396" y="392" text="2" measuredWidth="13" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="103" x="448" y="392" text="문의합니다" measuredWidth="66" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="104" x="820" y="392" text="2016/11/24" measuredWidth="72" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="105" x="983" y="389" width="24" height="25" measuredWidth="24" measuredHeight="25" icon="circled-check (large)"/>
+  <widgets xsi:type="model:Note" id="106" x="865" y="236" text="그냥,,,게시판,," measuredWidth="92" measuredHeight="29">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
