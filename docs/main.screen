@@ -110,6 +110,9 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Arrow" id="54" x="1104" y="516" width="25" height="21" measuredWidth="25" measuredHeight="21" left="false" right="true"/>
+  <widgets xsi:type="model:Note" id="56" x="768" y="256" text="기트허브처럼&#xD;&#xA;아예 탑 에이리어에 로그인창?" measuredWidth="179" measuredHeight="44">
+    <font/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
