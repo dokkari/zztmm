@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+	<classPathEntry
+		location="C:\Users\kjuhe\.m2\repository\postgresql\postgresql\8.3-603.jdbc4\postgresql-8.3-603.jdbc4.jar" />
+	<context id="PostgresTables" targetRuntime="MyBatis3">
+		<jdbcConnection driverClass="org.postgresql.Driver"
+			connectionURL="jdbc:postgresql://zztmm.c456ku87f90u.ap-northeast-2.rds.amazonaws.com:5432/zztmm" userId="zztmm"
+			password="zztmm000">
+		</jdbcConnection>
+
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+		
+		<!-- TODO -->
+		<javaModelGenerator targetPackage="com.ziqoo.mybatisSample.entity"
+			targetProject="C:\p4_2\workspace\mybatisSample\src\main\java">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+		<sqlMapGenerator targetPackage="com.ziqoo.mybatisSample.mapper"
+			targetProject="C:\p4_2\workspace\mybatisSample\src\main\resources">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="com.ziqoo.mybatisSample.mapper" targetProject="C:\p4_2\workspace\mybatisSample\src\main\java">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+
+		<!-- 対象テーブルを指定 -->
+		<table tableName="person">
+			<property name="useActualColumnNames" value="false" />
+		</table>
+<!-- 
+
+mybatis generator 실행방법
+http://ziqoo.com/wiki/index.php?mybatis%20%A5%B3%A1%BC%A5%C9%A4%CE%BC%AB%C6%B0%C0%B8%C0%AE
+
+mybatis-spring security 참고
+http://cusonar.tistory.com/8
+
+ -->
+	</context>
+</generatorConfiguration>

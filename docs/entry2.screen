@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" width="1161" height="761" text="Browser&#xA;http://..." measuredWidth="1161" measuredHeight="761">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" y="52" measuredWidth="1161" measuredHeight="65">
+    <widgets xsi:type="model:WidgetGroup" id="17" measuredWidth="1161" measuredHeight="65">
+      <widgets xsi:type="model:Panel" id="18" width="1161" height="65" measuredWidth="1161" measuredHeight="65"/>
+      <widgets xsi:type="model:Label" id="19" x="263" y="21" text="Formaker" measuredWidth="56" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:LinkBar" id="20" x="503" y="21" text="폼만드미, 폼보미, 문의하기" measuredWidth="178" measuredHeight="23">
+        <font/>
+        <items x="0" y="0" width="51" height="23" text="폼만드미"/>
+        <items x="69" y="0" width="39" height="23" text="폼보미"/>
+        <items x="126" y="0" width="51" height="23" text="문의하기"/>
+      </widgets>
+      <widgets xsi:type="model:Link" id="21" x="904" y="21" text="로그인" measuredWidth="39" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="22" x="228" y="17" measuredWidth="32" measuredHeight="32" icon="cloud (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="492" y="156" text="회원가입" measuredWidth="178" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="24" x="432" y="280" width="278" text="아이디입력(영문/숫자20자이내)" measuredWidth="278" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="26" x="432" y="306" width="278" text="비밀번호입력(영문/숫자 혼합 6자 이상)" measuredWidth="278" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="27" x="720" y="303" text="비밀번호 검증 플러그인 있나?(강도 검증)" measuredWidth="239" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="28" x="432" y="331" width="278" text="비밀번호재입력" measuredWidth="278" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="29" x="432" y="356" width="278" text="이메일입력" measuredWidth="278" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="30" x="433" y="381" width="277" text="표시 닉네임 입력" measuredWidth="277" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tooltip" id="31" x="720" y="348" text="사이트 상에서 표시될 이름입니다." measuredWidth="194" measuredHeight="40">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="32" x="433" y="470" width="277" text="실명 입력" measuredWidth="277" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="34" x="727" y="493" text="수집할지말지 고민되는 항목:&#xD;&#xA;성별, 생년월일" measuredWidth="172" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="35" x="433" y="497" width="277" text="휴대폰번호입력" measuredWidth="277" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="422" y="280" text="*" measuredWidth="11" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="422" y="306" text="*" measuredWidth="11" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="38" x="422" y="331" text="*" measuredWidth="11" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="39" x="422" y="356" text="*" measuredWidth="11" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="40" x="422" y="381" text="*" measuredWidth="11" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="41" x="429" y="254" text="필수입력" measuredWidth="54" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="433" y="448" text="보다 편한 이용을 위하여" measuredWidth="138" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="43" x="642" y="544" text="가입하기" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="44" x="144" y="353" text="아니면 메일 먼저 인증하고 나머지 단계 진행?" measuredWidth="263" measuredHeight="29">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
