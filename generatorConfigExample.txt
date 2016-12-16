@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+<context id="context1" >
+	<!-- “ú•t‚ðƒRƒƒ“ƒg‚É‚¢‚ê‚È‚¢ -->
+	<commentGenerator>
+	<property name="suppressDate" value="true" />
+	</commentGenerator>
+	<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://10.62.241.68/ESearch" userId="root" password="rikachan" />
+	<javaModelGenerator targetPackage="jp.co.softbank.search_base.searcher.da.entity" targetProject="curator_web/src" />
+	<sqlMapGenerator targetPackage="jp.co.softbank.search_base.searcher.da.mapper" targetProject="curator_web/resources" />
+	<javaClientGenerator targetPackage="jp.co.softbank.search_base.searcher.da.mapper" targetProject="curator_web/src" type="XMLMAPPER" />
+
+<!--
+	<table schema="ESearch" tableName="TB_MST_AUTOCOMPLETE" />
+	<table schema="ESearch" tableName="TB_MST_COEFFICIENT" />
+	<table schema="ESearch" tableName="TB_MST_CRAWL" />
+	<table schema="ESearch" tableName="TB_MST_DB_SEARCH" />
+	<table schema="ESearch" tableName="TB_MST_DS_ACCOUNT" />
+	<table schema="ESearch" tableName="TB_MST_FACET_CONDITION" />
+	<table schema="ESearch" tableName="TB_MST_FAQ_CATEGORY" />
+	<table schema="ESearch" tableName="TB_MST_FAQ_DATA" />
+	<table schema="ESearch" tableName="TB_MST_FAQ_RELATION" />
+	<table schema="ESearch" tableName="TB_MST_GOOGLE_ACCOUNT" />
+	<table schema="ESearch" tableName="TB_MST_GOOGLE_GROUP_MAPPING" />
+	<table schema="ESearch" tableName="TB_MST_GOOGLE_GROUP_MEMBER_LIST" />
+	<table schema="ESearch" tableName="TB_MST_GOOGLE_JOB_INFO" />
+	<table schema="ESearch" tableName="TB_MST_GOOGLE_TARGET_FOLDER" />
+	<table schema="ESearch" tableName="TB_MST_GROUP" />
+	<table schema="ESearch" tableName="TB_MST_OPEN_INFORMATION" />
+	<table schema="ESearch" tableName="TB_MST_PARAMETER" />
+	<table schema="ESearch" tableName="TB_MST_SCREEN" />
+	<table schema="ESearch" tableName="TB_MST_SERVICE" />
+	<table schema="ESearch" tableName="TB_MST_SITE_ACCOUNT" />
+	<table schema="ESearch" tableName="TB_MST_SITE_ACL" />
+	<table schema="ESearch" tableName="TB_MST_SITE_CRAWL" />
+	<table schema="ESearch" tableName="TB_MST_SITE_PAGE_ACL" />
+	<table schema="ESearch" tableName="TB_MST_SITE_PAGE" />
+	<table schema="ESearch" tableName="TB_MST_SOLR_SERVER" />
+	<table schema="ESearch" tableName="TB_MST_STRAIGHT_SECTION" />
+	<table schema="ESearch" tableName="TB_MST_SYNONYMS" />
+	<table schema="ESearch" tableName="TB_MST_TAG_GROUPS" />
+	<table schema="ESearch" tableName="TB_MST_TAGS" />
+	<table schema="ESearch" tableName="TB_MST_UPDATE_REQUEST_CONDITION" />
+	<table schema="ESearch" tableName="TB_MST_USER_GROUP_RELATION" />
+	<table schema="ESearch" tableName="TB_MST_USER" />
+
+	<table schema="ESearch" tableName="TB_TRN_BOOKMARK_FOLDER" />
+	<table schema="ESearch" tableName="TB_TRN_BOOKMARK" />
+	<table schema="ESearch" tableName="TB_TRN_COMMENT" />
+	<table schema="ESearch" tableName="TB_TRN_CRAWL_QUE" />
+	<table schema="ESearch" tableName="TB_TRN_CRAWL_STATUS" />
+	<table schema="ESearch" tableName="TB_TRN_CRAWLING_TARGET" />
+	<table schema="ESearch" tableName="TB_TRN_CUSTOM_TAG" />
+	<table schema="ESearch" tableName="TB_TRN_IINE" />
+	<table schema="ESearch" tableName="TB_TRN_MCF_QUE" />
+	<table schema="ESearch" tableName="TB_TRN_RANKING" />
+	<table schema="ESearch" tableName="TB_TRN_SITE_DOCUMENT" />
+	<table schema="ESearch" tableName="TB_TRN_THUMBNAIL_MAPPING" />
+	<table schema="ESearch" tableName="TB_TRN_TOKEN" />
+	<table schema="ESearch" tableName="TB_TRN_UPDATE_REQUEST" />
+	<table schema="ESearch" tableName="TB_TRN_VIEW_PUBLISH" />
+	<table schema="ESearch" tableName="TB_TRN_VIEW_SHARE_USER" />
+	<table schema="ESearch" tableName="TB_TRN_VIEW" />
+
+	<table schema="ESearch" tableName="TB_BATCH_PROGRESS" />
+	<table schema="ESearch" tableName="TB_CONNECTION_RETAINER" />
+	<table schema="ESearch" tableName="TB_CRAWLING_JOB" />
+	<table schema="ESearch" tableName="TB_STRAIGHT_EMPLOYEE_DATA" />
+	<table schema="ESearch" tableName="TB_STRAIGHT_SECTION_DATA" />
+	<table schema="ESearch" tableName="TB_USER_DEPARTMENT" />
+
+	<table schema="ESearch" tableName="TB_ACCESS_LOG" />
+	<table schema="ESearch" tableName="TB_REFERENCE_LOG" />
+	<table schema="ESearch" tableName="TB_SEARCH_LOG" />
+
+	<table schema="ESearch" tableName="TB_MST_MAIL_DELIVERY_RULE" />
+	<table schema="ESearch" tableName="TB_MST_MAIL_DELIVERY_SCHEDULE" />
+	<table schema="ESearch" tableName="TB_MST_MAIL_DELIVERY_MAIL_ADDRESS" />
+
+	<table schema="ESearch" tableName="TB_TRN_MAIL_REPORT_HEADER" />
+	<table schema="ESearch" tableName="TB_TRN_MAIL_REPORT_DETAIL" />
+	<table schema="ESearch" tableName="TB_MST_MAIL_DELIVERY_MAIL_IMAGE" />
+
+	<table schema="ESearch" tableName="TB_TRN_USER_TOKEN" />
+
+	<table schema="ESearch" tableName="TB_MST_MAIL_DELIVERY" />
+	<table schema="ESearch" tableName="TB_TRN_MAIL_NOW_DELIVERY" />
+	<table schema="ESearch" tableName="TB_TRN_CUSTOM_TAG_FILENAME" />
+
+	<table schema="ESearch" tableName="TB_TRN_DOCUMENT_PROPERTY" />
+	<table schema="ESearch" tableName="TB_MST_BANNER_MAINTENANCE" />
+	<table schema="ESearch" tableName="TB_TRN_IINE" />
+
+	<table schema="ESearch" tableName="TB_MST_PROPERTY_MANAGE_CSV" />
+	<table schema="ESearch" tableName="TB_TRN_DOCUMENT_PROPERTY" />
+	<table schema="ESearch" tableName="TB_MST_DOCUMENT_ATTRIBUTE_CONFIG" />
+	<table schema="ESearch" tableName="TB_TRN_DOCUMENT_ATTRIBUTE" />
+	<table schema="ESearch" tableName="TB_TRN_TAG_BATCH_STATUS"></table>
+	<table schema="ESearch" tableName="TB_TRN_REQUEST_PROPERTY_MANAGE"></table>
+-->
+
+<!-- <table schema="ESearch" tableName="TB_MST_SEARCH_STAGE"></table> -->
+<!-- 	<table schema="ESearch" tableName="TB_MST_BRAIN_TAG_GROUPS"></table> -->
+<!-- 	<table schema="ESearch" tableName="TB_MST_BRAIN_TAGS"></table> -->
+
+	<table schema="ESearch" tableName="TB_MST_SEARCH_STAGE_API"></table>
+	
+</context>
+</generatorConfiguration>
