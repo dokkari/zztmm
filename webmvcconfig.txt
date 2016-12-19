@@ -1,0 +1,101 @@
+
+package jp.co.softbank.search_base.searcher.api.common;
+
+import javax.servlet.Filter;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.filter.CharacterEncodingFilter;
+import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.resource.VersionResourceResolver;
+
+import jp.co.softbank.search_base.searcher.api.interceptor.AuthInterceptor;
+import jp.co.softbank.search_base.searcher.api.interceptor.ServiceInfoInjectInterceptor;
+
+@Configuration
+@EnableWebMvc
+public class WebMvcConfig extends WebMvcConfigurerAdapter {
+	
+	// 共通インタセプタ
+	@Autowired
+	private ServiceInfoInjectInterceptor serviceInfoInjectInterceptor;
+	// 認証インタセプタ
+	@Autowired
+	private AuthInterceptor authInterceptor;
+	
+	/**
+	 * インタセプタ 設定
+	 */
+	@Override
+	public void addInterceptors(InterceptorRegistry registry) {
+		
+		// 共通インタセプタ
+		registry.addInterceptor(serviceInfoInjectInterceptor).excludePathPatterns("/error");
+		
+		// 認証インタセプタ 設定
+		registry.addInterceptor(authInterceptor).excludePathPatterns("/*/openInfomation/**", "/*/logoImage/**");
+	}
+	
+	/**
+	 * 静的リソースはデフォルトサーブレットを使用
+	 */
+	@Override
+	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+		// configurer.enable();
+	}
+	
+	/**
+	 * 静的コンテンツにバージョン番号を付与
+	 * ※これは、Interceptorに引っかかってしまう
+	 */
+	// @Override
+	// public void addResourceHandlers(ResourceHandlerRegistry registry) {
+	// registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/").resourceChain(false)
+	// .addResolver(new VersionResourceResolver().addContentVersionStrategy("/**"));
+	// }
+	
+	@Override
+	public void addResourceHandlers(ResourceHandlerRegistry registry) {
+		VersionResourceResolver versionResolver = new VersionResourceResolver().addContentVersionStrategy("/css/**",
+		    "/js/**");
+		registry.addResourceHandler("/css/**").addResourceLocations("classpath:templates/css/").setCachePeriod(null)
+		    .resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/cusx/**").addResourceLocations("classpath:templates/cusx/").setCachePeriod(null)
+		    .resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/admin/**").addResourceLocations("classpath:templates/admin/").setCachePeriod(null)
+		    .resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/js/**").addResourceLocations("classpath:templates/js/").setCachePeriod(null)
+		    .resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/fonts/**").addResourceLocations("classpath:templates/fonts/").setCachePeriod(null)
+		    .resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/image/**").addResourceLocations("classpath:templates/image/").setCachePeriod(null)
+		    .resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/less/**").addResourceLocations("classpath:templates/less/").setCachePeriod(null)
+		    .resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/components/**").addResourceLocations("classpath:templates/components/")
+		    .setCachePeriod(null).resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/pdfView/**").addResourceLocations("classpath:templates/pdfView/")
+		    .setCachePeriod(null).resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/help/**").addResourceLocations("classpath:templates/help/").setCachePeriod(null)
+		    .resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/searchImage/**").addResourceLocations("classpath:templates/searchImage/")
+		    .setCachePeriod(null).resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/platinum/**").addResourceLocations("classpath:templates/platinum/")
+		    .setCachePeriod(null).resourceChain(true).addResolver(versionResolver);
+		registry.addResourceHandler("/request/**").addResourceLocations("classpath:templates/request/")
+	    	.setCachePeriod(null).resourceChain(true).addResolver(versionResolver);
+	}
+	
+	@Bean
+	public Filter characterEncodingFilter() {
+		CharacterEncodingFilter filter = new CharacterEncodingFilter();
+		filter.setEncoding("UTF-8");
+		filter.setForceEncoding(true);
+		return filter;
+	}
+}
